@@ -1,0 +1,25 @@
+{
+  "name": "duske",
+  "version": "0.0.1",
+  "description": "simple use case for rollup with banner",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "node dist/js/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dustin Chabrowski",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.7.4",
+    "babel-preset-es2015": "^6.6.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-header": "^1.7.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rollup": "^1.8.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "rollup-plugin-includepaths": "^0.1.2"
+  }
+}
